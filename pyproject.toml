@@ -1,0 +1,21 @@
+[project]
+name = "octoindex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastembed>=0.7.4",
+    "gradio>=6.3.0",
+    "langchain>=1.2.4",
+    "langchain-huggingface>=1.2.0",
+    "langchain-ollama>=1.0.1",
+    "langchain-qdrant>=1.1.0",
+    "langchain-text-splitters>=1.1.0",
+    "langgraph>=1.0.6",
+    "ollama>=0.6.1",
+    "pymupdf>=1.26.7",
+    "pymupdf4llm>=0.2.9",
+    "qdrant-client>=1.16.2",
+    "sentence-transformers>=5.2.0",
+]
