@@ -9,7 +9,7 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 COLLECTION_NAME = "rag_collection"
 DENSE_MODEL = "sentence-transformers/all-mpnet-base-v2"
 SPARSE_MODEL = "Qdrant/bm25"
-LLM_MODEL = "hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:IQ3_XXS" 
+LLM_MODEL = "hf.co/janhq/Jan-v1-4B-GGUF:Q4_K_M"
 
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
